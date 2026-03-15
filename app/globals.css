@@ -1,0 +1,132 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* KADAM Brand Colors */
+  --kadam-primary: #8C1D18;
+  --kadam-secondary: #F2F1ED;
+  --kadam-dark: #2B2B2B;
+  --kadam-white: #FFFFFF;
+  
+  --background: #FFFFFF;
+  --foreground: #2B2B2B;
+  --card: #FFFFFF;
+  --card-foreground: #2B2B2B;
+  --popover: #FFFFFF;
+  --popover-foreground: #2B2B2B;
+  --primary: #8C1D18;
+  --primary-foreground: #F2F1ED;
+  --secondary: #F2F1ED;
+  --secondary-foreground: #2B2B2B;
+  --muted: #F2F1ED;
+  --muted-foreground: #666666;
+  --accent: #8C1D18;
+  --accent-foreground: #F2F1ED;
+  --destructive: #dc2626;
+  --destructive-foreground: #FFFFFF;
+  --border: #E5E5E5;
+  --input: #E5E5E5;
+  --ring: #8C1D18;
+  --radius: 0.375rem;
+}
+
+.dark {
+  --background: #2B2B2B;
+  --foreground: #F2F1ED;
+  --card: #2B2B2B;
+  --card-foreground: #F2F1ED;
+  --popover: #2B2B2B;
+  --popover-foreground: #F2F1ED;
+  --primary: #8C1D18;
+  --primary-foreground: #F2F1ED;
+  --secondary: #3D3D3D;
+  --secondary-foreground: #F2F1ED;
+  --muted: #3D3D3D;
+  --muted-foreground: #A0A0A0;
+  --accent: #8C1D18;
+  --accent-foreground: #F2F1ED;
+  --destructive: #dc2626;
+  --destructive-foreground: #FFFFFF;
+  --border: #3D3D3D;
+  --input: #3D3D3D;
+  --ring: #8C1D18;
+}
+
+@theme inline {
+  --font-sans: 'Open Sans', 'Open Sans Fallback', system-ui, sans-serif;
+  --font-heading: 'Montserrat', 'Montserrat Fallback', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback', monospace;
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 6px);
+  
+  /* KADAM specific colors */
+  --color-kadam-primary: var(--kadam-primary);
+  --color-kadam-secondary: var(--kadam-secondary);
+  --color-kadam-dark: var(--kadam-dark);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--kadam-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--kadam-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6B1512;
+}
+
+/* Selection color */
+::selection {
+  background: var(--kadam-primary);
+  color: var(--kadam-secondary);
+}
