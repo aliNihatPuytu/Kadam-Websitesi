@@ -95,11 +95,10 @@ export const metadata: Metadata = {
     ],
     shortcut: '/favicon.ico',
   },
-  // Google Search Console doğrulama kodu buraya:
-  // verification: {
-  //   google: 'BURAYA_GOOGLE_SEARCH_CONSOLE_KODUNU_EKLE',
-  // },
-}
+    verification: {
+      google: 'google-site-verification=U5vindEdPj5ZtgcyQTowO5xEztTG3pukXnn4u93CfZg',
+    },
+  }
 
 export const viewport: Viewport = {
   width: 'device-width',

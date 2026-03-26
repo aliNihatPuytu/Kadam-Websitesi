@@ -11,7 +11,6 @@ import { Locale, localeNames } from '@/i18n/config';
 const navLinks = [
   { key: 'home', href: '/' },
   { key: 'corporate', href: '/kurumsal' },
-  { key: 'team', href: '/ekip' },
   { key: 'services', href: '/hizmetler' },
   { key: 'projects', href: '/projeler' },
   { key: 'news', href: '/haberler' },
