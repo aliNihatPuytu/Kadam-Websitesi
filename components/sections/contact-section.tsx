@@ -158,8 +158,8 @@ export function ContactSection() {
                       <a href="tel:+905534096319" className="text-[#2B2B2B]/70 hover:text-[#8C1D18] transition-colors">
                         0 (553) 409 63 19
                       </a>
-                      <a href="tel:+90XXXXXXXXXX" className="text-[#2B2B2B]/70 hover:text-[#8C1D18] transition-colors">
-                        0 (XXX) XXX XX XX
+                      <a href="tel:+905316973690" className="text-[#2B2B2B]/70 hover:text-[#8C1D18] transition-colors">
+                        0 (531) 697 36 90
                       </a>
                     </div>
                   </div>

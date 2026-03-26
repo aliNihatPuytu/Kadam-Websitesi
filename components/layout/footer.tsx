@@ -94,7 +94,7 @@ export function Footer() {
                 <div className="flex flex-col gap-1">
                   <a href="tel:+902163141294" className="text-sm text-stone-300 hover:text-red-800 transition-colors">0 (216) 314 12 94</a>
                   <a href="tel:+905534096319" className="text-sm text-stone-300 hover:text-red-800 transition-colors">0 (553) 409 63 19</a>
-                  <a href="tel:+90XXXXXXXXXX" className="text-sm text-stone-300 hover:text-red-800 transition-colors">0 (XXX) XXX XX XX</a>
+                  <a href="tel:+905316973690" className="text-sm text-stone-300 hover:text-red-800 transition-colors">0 (531) 697 36 90</a>
                 </div>
               </li>
               <li className="flex items-center gap-3">

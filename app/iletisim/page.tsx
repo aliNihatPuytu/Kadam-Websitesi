@@ -198,7 +198,7 @@ export default function ContactPage() {
                           href="tel:+90XXXXXXXXXX"
                           className="text-[#2B2B2B]/70 hover:text-[#8C1D18] transition-colors"
                         >
-                          0 (XXX) XXX XX XX
+                          0 (531) 697 36 90
                         </a>
                       </div>
                     </div>
