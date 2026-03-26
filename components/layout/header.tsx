@@ -54,7 +54,7 @@ export function Header() {
             <Link href="/" className="relative z-10">
               <div className="relative w-32 h-12">
                 <Image
-                  src="/KADAM Logo.png"
+                  src="/Kadam Dark Header.png"
                   alt="KADAM"
                   fill
                   className="object-contain"
