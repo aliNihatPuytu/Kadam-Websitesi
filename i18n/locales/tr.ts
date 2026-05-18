@@ -11,7 +11,7 @@ export const tr = {
   },
   hero: {
     headline: 'Güvenle Yükselen Yapılar',
-    subtitle: 'Modern mühendislik çözümleri ile projelerinizi hayata geçiriyoruz',
+    subtitle: 'Modern mimari anlayışıyla kaliteli ve estetik\nyaşam alanları inşa ediyoruz!',
     viewProjects: 'Projelerimizi İnceleyin',
     contactUs: 'İletişime Geçin',
     scrollDown: 'Aşağı Kaydır',

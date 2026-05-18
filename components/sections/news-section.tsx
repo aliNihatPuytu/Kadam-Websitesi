@@ -18,16 +18,7 @@ const newsItems = [
     },
     date: '2026-03-10',
   },
-  {
-    id: 'team-expansion',
-    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop',
-    title: { tr: 'Ekibimiz Büyüyor', en: 'Our Team is Growing' },
-    summary: { 
-      tr: 'Uzman mühendis ve mimarlardan oluşan ekibimize yeni üyeler katıldı.', 
-      en: 'New members have joined our team of expert engineers and architects.' 
-    },
-    date: '2026-02-28',
-  },
+  
   {
     id: 'milan-design-week',
     image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop',

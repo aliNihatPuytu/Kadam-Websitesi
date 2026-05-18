@@ -49,7 +49,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-lg md:text-xl text-[#F2F1ED]/90 max-w-2xl mx-auto mb-10"
+          className="text-lg md:text-xl text-[#F2F1ED]/90 max-w-2xl mx-auto mb-10 whitespace-pre-line"
         >
           {t.hero.subtitle}
         </motion.p>

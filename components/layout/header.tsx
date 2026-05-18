@@ -53,10 +53,12 @@ export function Header() {
             <Link href="/" className="relative z-10">
               <div className="relative w-32 h-12">
                 <Image
-                  src="/Kadam Dark Header.png"
+                  src={isScrolled ? "/Kadam Dark Header.png" : "/KADAM Logo.png"}
                   alt="KADAM"
                   fill
-                  className="object-contain"
+                  className={`object-contain transition-all duration-300 ${
+                    isScrolled ? 'scale-100' : 'scale-125'
+                  }`}
                   priority
                 />
               </div>
